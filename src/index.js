@@ -1,13 +1,28 @@
 import React from 'react';
+import { ConfigProvider } from 'antd';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ListProvider } from './context/list'
+import { UserProvider } from './context/user'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ConfigProvider
+        theme={{
+            token: {
+                fontFamily: "'DM Sans', sans-serif;"
+            },
+        }}
+    >
+      <UserProvider>
+        <ListProvider>
+          <App />
+        </ListProvider>
+      </UserProvider>
+    </ConfigProvider>
   </React.StrictMode>
 );
 
