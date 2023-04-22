@@ -35,12 +35,13 @@ export function ListProvider({children}) {
    
     const createTask = async(name) => { 
         if(!address) return;
-        setList(prev => ([...prev,{id:prev.length,name,completed:false,updating:false,creating:true,deleting:false}]))
         if(isLoading.current) {
             return queue.current.push({type:'createTask',name});
         }
 
         isLoading.current = true;
+        const updatedList = [...list,{id:list.length,name,completed:false,updating:false,creating:true,deleting:false}]
+        setList(updatedList)
         try {
             await Contract.methods.createTask(name).send({from: address})
             setList(prev => {
