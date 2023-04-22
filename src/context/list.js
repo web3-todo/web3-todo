@@ -14,7 +14,6 @@ export function ListProvider({children}) {
 
     useEffect(()=>{
         if(!isLoading.current && queue.current.length) {
-            console.log(isLoading.current,queue.current.length)
             const {type,name,id} = queue.current.shift();
             if(type === 'createTask') {
                 createTask(name);
@@ -24,14 +23,12 @@ export function ListProvider({children}) {
                 deleteTask(id);
             }
         }
-        console.log(queue.current)
     }, [list]);
 
     useEffect(() => {
         if(!address) return;
         Contract.methods.getList(address).call().then((result) => {
             const formattedList = result.map(({name,completed},index) => ({id:index,name,completed,updating:false,creating:false,deleting:false}))
-            console.log(formattedList)
             setList(formattedList)
         });
     },[address]);
