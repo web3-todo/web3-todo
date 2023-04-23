@@ -9,7 +9,7 @@ const { Title } = Typography;
 function App() {
   const {list} = useList();
   const createdList = list.filter(item => !item.creating&&!item.completed);
-  const sortedList = useMemo(()=>list.sort((a,b) => a.completed-b.completed),[list])
+  const sortedList = useMemo(()=>[...list].sort((a,b) => a.completed-b.completed),[list])
 
   return (
     <div style={{width:'80%',maxWidth:'600px', margin:'0 auto'}}>
