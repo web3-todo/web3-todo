@@ -10,7 +10,7 @@
     Stay organized, stay ahead, stay elegant
     <br />
     <br />
-    <a href="https://youtu.be/RSRg1IDNf0Y">Video Intro</a>
+    <a href="https://youtu.be/KZcw-LtwLg0">Video Intro</a>
     ·
     <a href="https://onchain-todo.netlify.app/">Demo</a>
   </p>
