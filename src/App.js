@@ -15,7 +15,7 @@ function App() {
     <div style={{width:'80%',maxWidth:'600px', margin:'0 auto'}}>
       <div style={{display:'flex',alignItems:'center'}}>
         <Title style={{margin:'20px 0'}}>todo:</Title>
-        {createdList.length ? <div style={{background:'#ff4d4f',color:'white',display:'inline-block',borderRadius:'6px',fontSize:'20px',fontWeight:'500',padding:'0 8px',height:'26px',lineHeight:'26px',textAlign:'center',marginLeft:'12px'}}>{createdList.length>99?'99+':createdList.length}</div> : ''}
+        {createdList.length ? <div style={{border:'solid 2px #ff4d4f',color:'#ff4d4f',display:'inline-block',borderRadius:'6px',fontSize:'16px',fontWeight:'500',padding:createdList.length>99?'0 8px':'0',width:createdList.length>99?'unset':'26px',height:'26px',lineHeight:'22px',textAlign:'center',marginLeft:'12px'}}>{createdList.length>99?'99+':createdList.length}</div> : ''}
       </div>
       <CreateTask />
       <List
