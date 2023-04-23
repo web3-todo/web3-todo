@@ -30,5 +30,5 @@ Blocto
 - [Demo](https://onchain-todo.netlify.app/)
 - [Etherscan - Arbitrum](https://mumbai.polygonscan.com/address/0x0eb07fb5167e4e228223cfb986fba2771c567c8b)
 - [Etherscan - Optimism](https://goerli-optimism.etherscan.io/address/0x27433e6d77b6fcd28c11d1533e084b3561b61914)
-- [Polyscan] (https://goerli.arbiscan.io/address/0x27433e6d77b6fcd28c11d1533e084b3561b61914)
+- [Polyscan](https://goerli.arbiscan.io/address/0x27433e6d77b6fcd28c11d1533e084b3561b61914)
 - [TAIKAI](https://taikai.network/ethtaipei/hackathons/hackathon/projects/clgstekyr63703901xf807lahfl/idea)
