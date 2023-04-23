@@ -9,7 +9,7 @@ const ToggleButton = ({index,completed,updating}) => {
     }
 
     if (updating) {
-        return <LoadingOutlined style={{ fontSize: '28px', }}  />
+        return <LoadingOutlined style={{ fontSize: '28px',padding:'1px 6px' }}  />
     }
     
     return (
