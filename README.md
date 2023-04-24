@@ -12,7 +12,7 @@
     <br />
     <a href="https://youtu.be/KZcw-LtwLg0">Video Intro</a>
     ·
-    <a href="https://onchain-todo.netlify.app/">Demo</a>
+    <a href="https://todo-web3.netlify.app">Demo</a>
   </p>
 </p>
 
