@@ -27,7 +27,7 @@ As we worked on the project, the significance of "todo:" in our coding work coul
 Blocto
 
 ### Links
-- [Demo](https://onchain-todo.netlify.app/)
+- [Demo](https://todo-web3.netlify.app)
 - [Etherscan - Arbitrum](https://mumbai.polygonscan.com/address/0x0eb07fb5167e4e228223cfb986fba2771c567c8b)
 - [Etherscan - Optimism](https://goerli-optimism.etherscan.io/address/0x27433e6d77b6fcd28c11d1533e084b3561b61914)
 - [Polyscan](https://goerli.arbiscan.io/address/0x27433e6d77b6fcd28c11d1533e084b3561b61914)
