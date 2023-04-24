@@ -8,6 +8,7 @@ export const bloctoSDK = new BloctoSDK({
         // (required for Ethereum) JSON RPC endpoint
         rpc: 'https://endpoints.omniatech.io/v1/arbitrum/goerli/public',
     },
+    appId: '8df47389-0a0e-48dc-ac5d-6c2c9167c854'
 });
 
 export const web3 = new Web3(bloctoSDK.ethereum);
