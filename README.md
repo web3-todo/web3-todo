@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://user-images.githubusercontent.com/7845979/234160645-981fde75-91a7-4110-8598-b8388fa88893.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/7845979/234161293-ccb355e5-a63a-41e3-b1ab-a88028eae231.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">todo:</h3>
